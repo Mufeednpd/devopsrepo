@@ -1,6 +1,6 @@
 variable "aws_region" {
   description  = "The AWS region to create things in."
-  default      = "us-east-1"
+  default      = "ap-south-1"
 }
 
 variable "instance_type" {
@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description  = "Name of security group"
-  default      = "my-jenkins-security-group"
+  default      = "labsec"
 }
 
 variable "tag_name" {
@@ -20,5 +20,5 @@ variable "tag_name" {
 
 variable "ami_id" {
   description  = "AMI for Ubuntu Ec2 instance"
-  default      = "ami-053b0d53c279acc90"
+  default      = "ami-0f5ee92e2d63afc18"
 }
